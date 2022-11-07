@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct SportasticApp: App {
+    
+    // set up firebase
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // the app begins at the AuthView()
+            AuthView()
         }
     }
 }
