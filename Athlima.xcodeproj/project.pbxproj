@@ -53,7 +53,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09080B9F28D7F9B700DE86ED /* Sportastic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sportastic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09080B9F28D7F9B700DE86ED /* Athlima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Athlima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09080BA228D7F9B700DE86ED /* SportasticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportasticApp.swift; sourceTree = "<group>"; };
 		09080BA428D7F9B700DE86ED /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		09080BA628D7F9B800DE86ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		09080BA028D7F9B700DE86ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09080B9F28D7F9B700DE86ED /* Sportastic.app */,
+				09080B9F28D7F9B700DE86ED /* Athlima.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -261,9 +261,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		09080B9E28D7F9B700DE86ED /* Sportastic */ = {
+		09080B9E28D7F9B700DE86ED /* Athlima */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09080BAD28D7F9B800DE86ED /* Build configuration list for PBXNativeTarget "Sportastic" */;
+			buildConfigurationList = 09080BAD28D7F9B800DE86ED /* Build configuration list for PBXNativeTarget "Athlima" */;
 			buildPhases = (
 				09080B9B28D7F9B700DE86ED /* Sources */,
 				09080B9C28D7F9B700DE86ED /* Frameworks */,
@@ -273,7 +273,7 @@
 			);
 			dependencies = (
 			);
-			name = Sportastic;
+			name = Athlima;
 			packageProductDependencies = (
 				09080BB428D7FB6200DE86ED /* FirebaseAnalytics */,
 				09080BB628D7FB6200DE86ED /* FirebaseAuth */,
@@ -283,7 +283,7 @@
 				09FCAFCE28DB90E900C0A2FE /* FirebaseFirestoreSwift */,
 			);
 			productName = Sportastic;
-			productReference = 09080B9F28D7F9B700DE86ED /* Sportastic.app */;
+			productReference = 09080B9F28D7F9B700DE86ED /* Athlima.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -301,7 +301,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 09080B9A28D7F9B700DE86ED /* Build configuration list for PBXProject "Sportastic" */;
+			buildConfigurationList = 09080B9A28D7F9B700DE86ED /* Build configuration list for PBXProject "Athlima" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -318,7 +318,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09080B9E28D7F9B700DE86ED /* Sportastic */,
+				09080B9E28D7F9B700DE86ED /* Athlima */,
 			);
 		};
 /* End PBXProject section */
@@ -501,12 +501,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "Sportastic/Resources/Preview\\ Content";
 				DEVELOPMENT_TEAM = V7Y6A65QWF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) uses your camera so that you can set your profile image to photos you take.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_NAME) accesses your photos so that you can set your profile image to photos you have in your library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -532,12 +533,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "Sportastic/Resources/Preview\\ Content";
 				DEVELOPMENT_TEAM = V7Y6A65QWF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) uses your camera so that you can set your profile image to photos you take.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_NAME) accesses your photos so that you can set your profile image to photos you have in your library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -560,7 +562,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09080B9A28D7F9B700DE86ED /* Build configuration list for PBXProject "Sportastic" */ = {
+		09080B9A28D7F9B700DE86ED /* Build configuration list for PBXProject "Athlima" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09080BAB28D7F9B800DE86ED /* Debug */,
@@ -569,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09080BAD28D7F9B800DE86ED /* Build configuration list for PBXNativeTarget "Sportastic" */ = {
+		09080BAD28D7F9B800DE86ED /* Build configuration list for PBXNativeTarget "Athlima" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09080BAE28D7F9B800DE86ED /* Debug */,
